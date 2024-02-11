@@ -1,0 +1,262 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bor{
+     border: 1px solid;
+}
+nav{
+     z-index: 5;
+}
+.dropdown:hover .dropdown-menu{
+     display: block !important;
+     z-index: 1;
+}
+.nav-link:hover{
+     opacity: .5;
+}
+.nav-link, .links{
+     font-size: 12px;
+}
+.card-link, section.section2 p.text-secondary{
+     font-size: 14px;
+}
+.card .card-body a.card-link:hover{
+     color: #0d6efd !important;
+}
+.card .card-body a.card-link span{
+     transition: 0.5s linear;
+}
+.card .card-body a.card-link:hover span#a1{
+     transform: translate(20px, 0px) !important;
+     display: inline-block;
+}
+.navbar-brand{
+     width: 100px;     
+}
+nav.navbar .container{
+     padding: 0 50px;
+}
+nav.navbar{
+     background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+}
+section.hero{
+     height: 650px;
+     background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://mobirise.com/extensions/shopamp/assets/images/freestocks-org-187367-unsplash-2000x1333.jpg");
+     background-size: cover;
+     background-position: center;
+}
+section.hero .row .col h1{
+     color: #000;
+}
+section.section1 .row .col-lg-4 .card-img-top{
+     transition: 1s ease-out;
+}
+section.section1 .row .col-lg-4 .card-img-top:hover{
+     transform: scale(1.5,1.5);
+}
+section.section2{
+     height: 630px;
+     background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("https://mobirise.com/extensions/shopamp/assets/images/daniel-von-appen-482680-unsplash-2000x1500.jpg");
+     background-size: cover;
+     background-position: center;
+}
+.fa-tag{
+     transform: rotate(90deg);
+}
+section.section3, section.section5, section.section7, section.section9, section.section11{
+     background-color: #f1f1f7;
+}
+.line{
+     border: 5px solid gray;
+     width: 50%;
+     margin: auto;
+     position: relative;
+}
+.second{
+     border: 5px solid aqua;
+     width: 80%;
+     position: absolute;
+     top: -5px;
+     left: -5px;
+}
+section.section4 .row .col-lg-6 .card .card-body{
+     color: #000;
+     opacity: 0;
+     transition: 1s ease;
+     height: 80%;
+}
+section.section4 .row .col-lg-6 .card img{
+     height: 80%;
+     object-position: top;
+}
+section.section4 .row .col-lg-6 .card .card-body:hover{
+     opacity: 0.5;
+}
+section.section4 .card .card-text{
+     height: 20%;
+}
+section.section5 input[type="email"]{
+     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("search-solid.svg");
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: contain;
+     background-size: 27px;
+     width: 20px;
+     transition: 1s linear;
+     outline: 0;
+}
+section.section5 input[type="email"]:focus{
+     width: 50%;
+     background-position: left;
+}
+section.section6 .card1{
+     height: 420px;
+}
+section.section6 .card1:hover .card-body div{
+   transform: translate(-100%, -150%);
+   font-size: 200% !important;
+}
+section.section6 .col-lg-12 .card1:hover .card-body div{
+     transform: translate(-150%, -60%);
+     font-size: 200% !important;
+}
+section.section6 .card1 .card-body div{
+     transition: 0.6s linear !important;
+}
+section.section6 .card .card-body{
+     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+     justify-content: right;
+     align-items: flex-end;
+}
+section.section6 .col-lg-12 .card1{
+     height: 200px;
+}
+section.section7 .row .col-lg-4 .card{
+     transition: 0.5s linear;
+}
+section.section7 .row .col-lg-4 .card:hover{
+     box-shadow: 0px 0px 12px 2px;
+}
+section.section8 .row .card .card-body .rounded-circle{
+     width: 50px;
+     height: 50px;
+}
+section.section8 .row .card .card-body{
+     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+     transition: 0.6s linear;
+}
+section.section8 .row .card .card-first{
+     right: 100% !important;
+}
+section.section8 .row .card:hover .card-first{
+     right: 0 !important;
+}
+section.section8 .row .card .card-second{
+     left: 100%;
+}
+section.section8 .row .card:hover .card-second{
+     left: 0;
+}
+section.section8 .row .card .card-third{
+     bottom: 100%;
+}
+section.section8 .row .card:hover .card-third{
+     bottom: 0;
+}
+section.section8 .row .card .card-forth{
+     top: 100%;
+}
+section.section8 .row .card:hover .card-forth{
+     top: 0;
+}
+
+section.section8 .row .card .card-fifth{
+     right: 100%;
+     bottom: 100%;
+}
+section.section8 .row .card:hover .card-fifth{
+     bottom: 0;
+     right: 0;
+}
+section.section8 .row .card .card-sixth{
+     left: 100%;
+     top: 100%;
+}
+section.section8 .row .card:hover .card-sixth{
+     left: 0;
+     top: 0;
+}
+section.section9 .carousel-item .row .slider-image{
+     width: 100px;
+     height: 100px;
+     background-size: cover;
+     background-position: center;
+}
+section.section9 .active .slider-image{
+     background-image: url("https://mobirise.com/extensions/shopamp/assets/images/face9.jpg");
+}
+section.section9 .slider-2 .slider-image{
+     background-image: url("https://mobirise.com/extensions/shopamp/assets/images/face2.jpg");
+}
+section.section9 .carousel button{
+     width: 40px;
+     height: 40px;
+     top: 50%;
+}
+section.section11 .col-6 .sec11-image{
+     width: 150px;
+     height: 80px;
+}
+section.section11 .col-6 .bg-white{
+     width: 40px;
+     height: 40px;
+}
+section.section11 .col-3 ul li{
+     list-style: none !important;
+}
+section.section11 .col-3 ul li a:hover{
+     color: #0d6efd !important;
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+     p.font{
+          font-size: 14px !important;
+          /* margin: 0px !important; */
+          line-height: 1.3 !important;
+     }
+     h5.font{
+          font-size: 16px;
+     }
+     li.font{
+          font-size: 12px;
+     }
+     section.section11 p.font{
+          font-size: 10px;
+     }
+     section.section5 p.font{
+          font-size: 12px !important;
+     }
+     
+section.section6 .card1{
+     height: 250px;
+}
+
+section.section6 .col-lg-12 .card1{
+     height: 150px;
+}
+section.section9 button.abc{
+     left: 1% !important;
+}
+section.section9 button.def{
+     right: 0 !important;
+}
+section.section11 .col-6 .sec11-image{
+     height: 60px;
+     width: 100px;
+}
+footer.text-center p{
+     font-size: 10px;
+}
+}
